@@ -1,0 +1,13 @@
+/* Local Fonts */
+@import './partials/_fonts.css';
+
+/* Tailwind Base + Components */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+
+/* Custom Partials */
+@import './partials/_container.css';
+@import './partials/_typography.css';
+
+/* Tailwind Utils */
+@import 'tailwindcss/utilities';
