@@ -2,9 +2,11 @@
   Gatsby x Tailwind x Framer Motion Boilerplate
 </h1>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b28e0afb-caea-470e-8edb-b6458ff1fc9b/deploy-status)](https://app.netlify.com/sites/boring-lalande-b686d0/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7e52dbac-aec4-4a56-864f-e33649fadc9b/deploy-status)](https://app.netlify.com/sites/gatsby-tailwind-motion/deploys)
 
 Gatsby + Tailwind + Framer Motion powered boilerplate
+
+[gatsby-tailwind-motion.netlify.com](http://gatsby-tailwind-motion.netlify.com)
 
 ## 🚀 Quick start
 
@@ -38,5 +40,5 @@ Gatsby + Tailwind + Framer Motion powered boilerplate
 ## 📄 Docs
 
 - [Gatsby](https://www.gatsbyjs.org/docs/)
-- [DatoCMS](https://www.datocms.com/)
 - [TailwindCSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
