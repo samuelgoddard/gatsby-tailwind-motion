@@ -1,8 +1,9 @@
 import { Link } from "gatsby"
+import PropTypes from "prop-types"
 import React from "react"
 import { motion } from 'framer-motion'
 
-const Header = () => (
+const Header = ({ siteTitle }) => (
   <header className="py-8 md:py-16">
     
     <div className="container">
@@ -18,7 +19,7 @@ const Header = () => (
         />
 
         <Link className="font-bold block text-lg md:text-xl inline-block" to="/">
-          Gatsby x Tailwind x Framer Motion
+          {siteTitle}
         </Link>
       </div>
 
@@ -54,5 +55,13 @@ const Header = () => (
     </div>
   </header>
 )
+
+Header.propTypes = {
+  siteTitle: PropTypes.string,
+}
+
+Header.defaultProps = {
+  siteTitle: ``,
+}
 
 export default Header
