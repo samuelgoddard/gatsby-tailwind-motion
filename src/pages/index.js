@@ -24,7 +24,7 @@ const item = {
 const IndexPage = () => {
   return (
     <>
-      <SEO title="Docs" />
+      <SEO title="Home" />
       <motion.section
         variants={container}
         initial="hidden" 
@@ -36,7 +36,7 @@ const IndexPage = () => {
           variants={item}
           transition="easeInOut"
         >
-          <p className="text-lg md:text-xl pl-3 border-l-2 border-black">An opinionated starter for Gatsby v2 with TailwindCSS, PostCSS and Framer Motion Page Transitions</p>
+          <p className="text-lg md:text-xl pl-3 border-l-2 border-black">An opinionated starter for Gatsby v2 with TailwindCSS, PostCSS and Framer Motion page transitions.</p>
         </motion.div>
 
         <motion.div 
