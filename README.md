@@ -6,7 +6,7 @@
 
 Gatsby + Tailwind + Framer Motion powered boilerplate
 
-[gatsby-tailwind-motion.netlify.com](http://gatsby-tailwind-motion.netlify.com)
+[https://gatsby-tailwind-motion.netlify.com](https://gatsby-tailwind-motion.netlify.com)
 
 ## 🚀 Quick start
 
@@ -21,13 +21,13 @@ Gatsby + Tailwind + Framer Motion powered boilerplate
     Navigate into your new site’s directory and install the local dependencies.
 
     ```sh
-        yarn install
+    yarn
     ```
 
     Start developing locally (with gatsby-cli).
 
     ```sh
-    cd mat-hayward/
+    cd gatsby-tailwind-motion/
     gatsby develop
     ```
 
@@ -42,3 +42,4 @@ Gatsby + Tailwind + Framer Motion powered boilerplate
 - [Gatsby](https://www.gatsbyjs.org/docs/)
 - [TailwindCSS](https://tailwindcss.com/)
 - [Framer Motion](https://www.framer.com/motion/)
+- [PostCSS](https://postcss.org/)
