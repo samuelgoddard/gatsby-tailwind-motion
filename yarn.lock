@@ -10081,6 +10081,13 @@ react-hot-loader@^4.12.13:
     shallowequal "^1.1.0"
     source-map "^0.7.3"
 
+react-icons@^3.7.0:
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-3.7.0.tgz#64fe46231fabfeea27895edeae6c3b78114b8c8f"
+  integrity sha512-7MyPwjIhuyW0D2N3s4DEd0hGPGFf0sK+IIRKhc1FvSpZNVmnUoGvHbmAwzGJU+3my+fvihVWgwU5SDtlAri56Q==
+  dependencies:
+    camelcase "^5.0.0"
+
 react-is@^16.7.0, react-is@^16.8.1:
   version "16.8.3"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.3.tgz#4ad8b029c2a718fc0cfc746c8d4e1b7221e5387d"
@@ -11524,6 +11531,13 @@ tailwindcss-transition@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/tailwindcss-transition/-/tailwindcss-transition-1.0.5.tgz#ae70fc3a883d563cfcecd485ea9459c30b3de38e"
   integrity sha512-ml+GmmjKVb+uEkGr75iSi6gN1Ayjv8EWzr2OJxB0wucrcg4BCz99/9Id4r4sBCpZctupb2yI+uSWlqQ9VvQoJA==
+
+tailwindcss-transitions@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/tailwindcss-transitions/-/tailwindcss-transitions-2.1.0.tgz#54ca6c293a197300c5eb1ab3775dc29f083432f1"
+  integrity sha512-WafCC+ujZk2rUECdBoFeF8lKTmrrpNudrHxSHNikYfaYyVR7BRRqpB2n49/wxzg8/YWy8OK42MvQnFuJBb2yxw==
+  dependencies:
+    lodash "^4.17.15"
 
 tailwindcss@^1.1.2:
   version "1.1.2"

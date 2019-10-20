@@ -19,7 +19,7 @@ module.exports = {
       options: {
         printRejected: true,
         tailwind: true, 
-        whitelist: ['whitelist'],
+        whitelistPatterns: [/is-active/],
       }
     },
     `gatsby-transformer-sharp`,
