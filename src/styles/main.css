@@ -11,6 +11,7 @@
 /* Custom Partials */
 @import './partials/_container.css';
 @import './partials/_typography.css';
+@import './partials/_navigation.css';
 
 /* Tailwind Utils */
 @import 'tailwindcss/utilities';

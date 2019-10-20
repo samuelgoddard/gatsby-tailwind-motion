@@ -1,7 +1,8 @@
+import React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import React from "react"
 import { motion } from 'framer-motion'
+import Nav from '../components/nav'
 
 const Header = ({ siteTitle }) => (
   <header className="py-8 md:py-16">
@@ -23,35 +24,8 @@ const Header = ({ siteTitle }) => (
         </Link>
       </div>
 
-      <nav>
-        <ul className="flex flex-wrap">
-          <li>
-            <Link
-              activeClassName="is--active"
-              className="link mr-3"
-              to="/">
-                Home
-            </Link>
-          </li>
-          <li>
-            <Link
-              activeClassName="is--active"
-              className="link mr-3"
-              to="/about">
-                About
-            </Link>
-          </li>
-          <li>
-            <a
-              className="link mr-3"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/samuelgoddard/gatsby-tailwind-motion">
-                Github
-            </a>
-          </li>
-        </ul>
-      </nav>
+      <Nav />
+
     </div>
   </header>
 )
