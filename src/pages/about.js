@@ -36,7 +36,7 @@ const AboutPage = () => {
           variants={item}
           transition="easeInOut"
         >
-          <p class="text-lg md:text-xl pl-3 border-l-2 border-black">Hello from the about page</p>
+          <p className="text-lg md:text-xl pl-3 border-l-2 border-black">Hello from the about page</p>
         </motion.div>
 
         <motion.div 
