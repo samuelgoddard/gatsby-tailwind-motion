@@ -6,7 +6,9 @@ Navigation
 	@apply
 		bg-white
 		fixed
-		transition
+		transition-all
+		duration-100
+		ease-in
 		top-0
 		left-0
 		p-6
@@ -72,7 +74,9 @@ Navigation
 		w-1/2
 		opacity-100
 		bg-white
-		transition;
+		transition-all
+		duration-100
+		ease-in;
 	height: 2px;
 }
 
@@ -83,6 +87,10 @@ Navigation
 
 .navigation-button.is-active .navigation-button__line-1 {
 	@apply
+	transform
+	transition-all
+	duration-100
+	ease-in
 		rotate-45
 		left-0;
 	margin-top: 2px;
@@ -90,6 +98,10 @@ Navigation
 
 .navigation-button.is-active .navigation-button__line-2 {
 	@apply
+	transform
+	transition-all
+	duration-100
+	ease-in
 		-rotate-45
 		left-0;
 	margin-top: 10px;
@@ -110,6 +122,10 @@ Navigation
 
 .navigation-button.is-active .navigation-button__line-5 {
 	@apply
+	transform
+	transition-all
+	duration-100
+	ease-in
 		-rotate-45
 		right-0;
 	margin-top: 2px;
@@ -117,6 +133,10 @@ Navigation
 
 .navigation-button.is-active .navigation-button__line-6 {
 	@apply
+	transform
+	transition-all
+	duration-100
+	ease-in
 		rotate-45
 		right-0;
 	margin-top: 10px;
