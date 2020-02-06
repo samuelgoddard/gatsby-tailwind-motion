@@ -90,7 +90,7 @@ Navigation
 
 .navigation-button.is-active .navigation-button__line-2 {
 	@apply
-		rotate--45
+		-rotate-45
 		left-0;
 	margin-top: 10px;
 }
@@ -110,7 +110,7 @@ Navigation
 
 .navigation-button.is-active .navigation-button__line-5 {
 	@apply
-		rotate--45
+		-rotate-45
 		right-0;
 	margin-top: 2px;
 }
