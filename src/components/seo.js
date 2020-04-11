@@ -4,7 +4,8 @@ import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
 function SEO({ description, lang, meta, title }) {
-  const { site } = useStaticQuery(
+
+  const { site, file } = useStaticQuery(
     graphql`
       query {
         site {
@@ -14,11 +15,16 @@ function SEO({ description, lang, meta, title }) {
             author
           }
         }
+        file(relativePath: { eq: "gatsby-astronaut.jpg" }) {
+          publicURL
+        }
       }
     `
   )
 
   const metaDescription = description || site.siteMetadata.description
+
+  const ogImage = file.publicURL
 
   return (
     <Helmet
@@ -44,6 +50,15 @@ function SEO({ description, lang, meta, title }) {
           property: `og:type`,
           content: `website`,
         },
+        // OG Image is the image intended for Google to display in SERPs. 
+        // {
+        //   property: `og:image`,
+        //   content: ogImage,
+        // },
+        // {
+        //   property: `image`,
+        //   content: ogImage,
+        // },
         {
           name: `twitter:card`,
           content: `summary`,
