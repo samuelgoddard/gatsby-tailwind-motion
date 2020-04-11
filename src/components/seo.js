@@ -15,7 +15,7 @@ function SEO({ description, lang, meta, title }) {
             author
           }
         }
-        file(relativePath: { eq: "gatsby-astronaut.jpg" }) {
+        file(relativePath: { eq: "gatsby-astronaut.png" }) {
           publicURL
         }
       }
