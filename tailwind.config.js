@@ -1,4 +1,10 @@
 module.exports = {
+  purge: {
+    content: ['./src/**/*.js',],
+    options: {
+      whitelist: ['is-active'],
+    }
+  },
   theme: {
     extend: {
       fontFamily: {
