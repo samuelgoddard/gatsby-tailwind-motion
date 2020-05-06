@@ -22,13 +22,12 @@
     "react-icons": "^3.9.0"
   },
   "devDependencies": {
-    "gatsby-plugin-purgecss": "^4.0.1",
     "postcss-import": "^12.0.1",
     "postcss-import-resolver": "^2.0.0",
     "postcss-nested": "^4.2.1",
     "postcss-preset-env": "^6.7.0",
     "prettier": "^1.19.1",
-    "tailwindcss": "^1.2.0"
+    "tailwindcss": "^1.4.1"
   },
   "keywords": [
     "gatsby",

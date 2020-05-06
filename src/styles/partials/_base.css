@@ -1,4 +1,12 @@
 body, html {
-	/* Force vertical scroll bar, prevent shifting content */
+	/* Force vertical scroll bar, prevent shifting content, works best on Windows */
 	min-height: 101%;
+}
+
+a {
+	@apply transition duration-300;
+}
+
+[class*='transition'] {
+	@apply duration-300;
 }
