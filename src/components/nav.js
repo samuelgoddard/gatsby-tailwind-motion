@@ -30,14 +30,14 @@ const Nav = class extends React.Component {
           </li>
         </ul>
       </div>
-      <div className={`${burgerActive} navigation-button`} onClick={this.toggleMenu}>
+      <div aria-label="Navigation menu button" tabIndex={0} role="button" className={`${burgerActive} navigation-button`} onClick={this.toggleMenu} onKeyDown={this.toggleMenu}>
         <div className={`navigation-button__inside ${burgerActive}`}>
-          <span className="navigation-button__lines navigation-button__line-1 left-0"></span>
-          <span className="navigation-button__lines navigation-button__line-2 left-0 mt-2"></span>
-          <span className="navigation-button__lines navigation-button__line-3 left-0 mt-4"></span>
-          <span className="navigation-button__lines navigation-button__line-4 right-0"></span>
-          <span className="navigation-button__lines navigation-button__line-5 right-0 mt-2"></span>
-          <span className="navigation-button__lines navigation-button__line-6 right-0 mt-4"></span>
+          <span className="left-0 navigation-button__lines navigation-button__line-1"></span>
+          <span className="left-0 mt-2 navigation-button__lines navigation-button__line-2"></span>
+          <span className="left-0 mt-4 navigation-button__lines navigation-button__line-3"></span>
+          <span className="right-0 navigation-button__lines navigation-button__line-4"></span>
+          <span className="right-0 mt-2 navigation-button__lines navigation-button__line-5"></span>
+          <span className="right-0 mt-4 navigation-button__lines navigation-button__line-6"></span>
         </div>
       </div>
     </nav>
