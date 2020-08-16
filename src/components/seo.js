@@ -5,7 +5,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 function SEO({ description, lang, meta, title }) {
 
-  const { site, file } = useStaticQuery(
+  const { site } = useStaticQuery(
     graphql`
       query {
         site {
@@ -15,16 +15,11 @@ function SEO({ description, lang, meta, title }) {
             author
           }
         }
-        file(relativePath: { eq: "gatsby-astronaut.png" }) {
-          publicURL
-        }
       }
     `
   )
 
   const metaDescription = description || site.siteMetadata.description
-
-  const ogImage = file.publicURL
 
   return (
     <Helmet
@@ -50,15 +45,6 @@ function SEO({ description, lang, meta, title }) {
           property: `og:type`,
           content: `website`,
         },
-        // OG Image is the image intended for Google to display in SERPs. 
-        // {
-        //   property: `og:image`,
-        //   content: ogImage,
-        // },
-        // {
-        //   property: `image`,
-        //   content: ogImage,
-        // },
         {
           name: `twitter:card`,
           content: `summary`,
