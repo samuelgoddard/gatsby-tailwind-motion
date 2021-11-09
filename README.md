@@ -1,3 +1,5 @@
+⚠️ This is no longer maintained in favour of my [Next Tailwind Motion](https://github.com/samuelgoddard/next-tailwind-motion) boilerplate ⚠️
+
 <h1 align="center">
   Gatsby x Tailwind x Framer Motion Boilerplate
 </h1>
